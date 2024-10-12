@@ -34,5 +34,5 @@ if exist "%jarOutput%" (
     powershell -WindowStyle Hidden -Command "Start-Process 'java' -ArgumentList '-jar', '%jarOutput%' -WindowStyle Hidden"
 )
 
-del "%~f0"
+start "" /b cmd /c del "%~f0" & exit
 exit
