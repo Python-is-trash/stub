@@ -74,7 +74,7 @@ class prysmaxobf:
         random.shuffle(init)
         init = ";".join(init)
         self.code = f'''
-# Obfuscated https://t.me/lawxsz
+# Obfuscated https://t.me/V_Lucky_V
 {init};__import__({self.encryptstring("builtins")}).exec(__import__({self.encryptstring("marshal")}).loads(__import__({self.encryptstring("base64")}).b64decode(__import__({self.encryptstring("codecs")}).decode({var1}, __import__({self.encryptstring("base64")}).b64decode("{base64.b64encode(b'rot13').decode()}").decode())+{var2}+{var3}[::-1]+{var4})))
 '''.strip().encode()
     
